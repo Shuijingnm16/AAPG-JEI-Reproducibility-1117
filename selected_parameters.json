@@ -1,0 +1,12 @@
+{
+  "selection_metric": "validation mean PSNR",
+  "selected_wiener_reg": 0.0001,
+  "selected_rl_iterations": 20,
+  "validation_images": "../data/DIV2K_valid_HR",
+  "n_images": 10,
+  "noise_peak": 0,
+  "seed": 2026,
+  "tiles": 3,
+  "overlap": 32,
+  "note": "Select on validation data only; freeze for independent test. Noise-specific tuning not performed."
+}
